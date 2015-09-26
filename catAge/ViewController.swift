@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var humanAgeBox: UITextField!
+    @IBOutlet weak var catAgeLabel: UILabel!
+    
+    @IBAction func getCatAgeButton(sender: AnyObject) {
+        var catAge = Int(humanAgeBox.text!)! * 7
+        catAgeLabel.text = "Your cat is \(catAge) in cat years."
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -12,6 +12,7 @@
 		323D4DED1BB72E260035BBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DEB1BB72E260035BBAF /* Main.storyboard */; };
 		323D4DEF1BB72E260035BBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DEE1BB72E260035BBAF /* Assets.xcassets */; };
 		323D4DF21BB72E260035BBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DF01BB72E260035BBAF /* LaunchScreen.storyboard */; };
+		323D4DFA1BB72F7D0035BBAF /* nilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DF91BB72F7D0035BBAF /* nilla.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		323D4DEE1BB72E260035BBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		323D4DF11BB72E260035BBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		323D4DF31BB72E260035BBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323D4DF91BB72F7D0035BBAF /* nilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nilla.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				323D4DE71BB72E260035BBAF /* AppDelegate.swift */,
 				323D4DE91BB72E260035BBAF /* ViewController.swift */,
 				323D4DEB1BB72E260035BBAF /* Main.storyboard */,
+				323D4DF91BB72F7D0035BBAF /* nilla.jpg */,
 				323D4DEE1BB72E260035BBAF /* Assets.xcassets */,
 				323D4DF01BB72E260035BBAF /* LaunchScreen.storyboard */,
 				323D4DF31BB72E260035BBAF /* Info.plist */,
@@ -125,6 +128,7 @@
 				323D4DF21BB72E260035BBAF /* LaunchScreen.storyboard in Resources */,
 				323D4DEF1BB72E260035BBAF /* Assets.xcassets in Resources */,
 				323D4DED1BB72E260035BBAF /* Main.storyboard in Resources */,
+				323D4DFA1BB72F7D0035BBAF /* nilla.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
