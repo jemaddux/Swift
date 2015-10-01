@@ -286,6 +286,7 @@
 				326D342C1BBB4B8F00A83C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
