@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         let arr = [1,2,3,4]
         NSUserDefaults.standardUserDefaults().setObject(arr, forKey: "array")
-        let returnedArray = NSUserDefaults.standardUserDefaults().objectForKey("array") as NSArray
+        let returnedArray = NSUserDefaults.standardUserDefaults().objectForKey("array")! as! NSArray
         
         for x in returnedArray {
             print(x)
