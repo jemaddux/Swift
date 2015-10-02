@@ -12,6 +12,7 @@
 		32435F6E1BBDFE2900F2A12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32435F6C1BBDFE2900F2A12D /* Main.storyboard */; };
 		32435F701BBDFE2900F2A12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32435F6F1BBDFE2900F2A12D /* Assets.xcassets */; };
 		32435F731BBDFE2900F2A12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32435F711BBDFE2900F2A12D /* LaunchScreen.storyboard */; };
+		32435F7B1BBE001000F2A12D /* DA round clear background.png in Resources */ = {isa = PBXBuildFile; fileRef = 32435F7A1BBE001000F2A12D /* DA round clear background.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		32435F6F1BBDFE2900F2A12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32435F721BBDFE2900F2A12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32435F741BBDFE2900F2A12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32435F7A1BBE001000F2A12D /* DA round clear background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DA round clear background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				32435F681BBDFE2900F2A12D /* AppDelegate.swift */,
 				32435F6A1BBDFE2900F2A12D /* ViewController.swift */,
+				32435F7A1BBE001000F2A12D /* DA round clear background.png */,
 				32435F6C1BBDFE2900F2A12D /* Main.storyboard */,
 				32435F6F1BBDFE2900F2A12D /* Assets.xcassets */,
 				32435F711BBDFE2900F2A12D /* LaunchScreen.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32435F7B1BBE001000F2A12D /* DA round clear background.png in Resources */,
 				32435F731BBDFE2900F2A12D /* LaunchScreen.storyboard in Resources */,
 				32435F701BBDFE2900F2A12D /* Assets.xcassets in Resources */,
 				32435F6E1BBDFE2900F2A12D /* Main.storyboard in Resources */,
