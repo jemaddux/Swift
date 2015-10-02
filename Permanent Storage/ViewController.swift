@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         NSUserDefaults.standardUserDefaults().setObject("Rob", forKey: "name")
-        var userName = NSUserDefaults.standardUserDefaults().objectForKey("name")
+        let userName = NSUserDefaults.standardUserDefaults().objectForKey("name")
         print(userName)
     }
 
