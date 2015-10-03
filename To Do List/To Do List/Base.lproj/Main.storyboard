@@ -41,6 +41,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="toDoListTable" destination="tIi-zG-2tW" id="9FK-Zh-cEi"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
