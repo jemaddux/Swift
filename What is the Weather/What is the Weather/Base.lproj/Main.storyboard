@@ -16,38 +16,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the Weather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TC-Ym-gT0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is the Weather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TC-Ym-gT0">
                                 <rect key="frame" x="192" y="49" width="217" height="21"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1Mr-75-Qgv"/>
+                                    <constraint firstAttribute="width" constant="217" id="BgP-iw-dxT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.0" green="0.25098040699958801" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter a city:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbp-0d-w5m">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a city:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbp-0d-w5m">
                                 <rect key="frame" x="238" y="112" width="124" height="21"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Nh8-yZ-Y6S"/>
+                                    <constraint firstAttribute="width" constant="124" id="uv6-y9-f4F"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eg: London, Paris, etc...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WLp-Ap-dXD">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eg: London, Paris, etc...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WLp-Ap-dXD">
                                 <rect key="frame" x="192" y="181" width="217" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PCl-Eg-L4F"/>
+                                    <constraint firstAttribute="width" constant="217" id="bcL-zL-hlz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfP-16-nf5">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfP-16-nf5">
                                 <rect key="frame" x="244" y="247" width="91" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3cn-e8-lDm"/>
+                                    <constraint firstAttribute="width" constant="91" id="JNm-u5-Tl4"/>
+                                </constraints>
                                 <state key="normal" title="Get Weather!"/>
                                 <connections>
                                     <action selector="getWeatherButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1Q-h5-JpB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Weather is." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Eh-S3-9Lt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Weather is." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Eh-S3-9Lt">
                                 <rect key="frame" x="126" y="319" width="349" height="89"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="mgT-Xx-EKm"/>
+                                    <constraint firstAttribute="width" constant="349" id="r6W-zR-GeY"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -55,6 +75,21 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1Eh-S3-9Lt" firstAttribute="top" secondItem="UfP-16-nf5" secondAttribute="bottom" constant="42" id="3rn-IJ-Rsz"/>
+                            <constraint firstItem="WLp-Ap-dXD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AEn-jn-WaV"/>
+                            <constraint firstItem="UfP-16-nf5" firstAttribute="top" secondItem="WLp-Ap-dXD" secondAttribute="bottom" constant="36" id="B1m-fY-9Gb"/>
+                            <constraint firstItem="1Eh-S3-9Lt" firstAttribute="top" secondItem="UfP-16-nf5" secondAttribute="bottom" constant="42" id="EGk-XU-Vl2"/>
+                            <constraint firstItem="1Eh-S3-9Lt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gny-JV-RI3"/>
+                            <constraint firstItem="Wbp-0d-w5m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MKa-ju-A9P"/>
+                            <constraint firstItem="UfP-16-nf5" firstAttribute="top" secondItem="WLp-Ap-dXD" secondAttribute="bottom" constant="36" id="On5-v1-Bxb"/>
+                            <constraint firstItem="Wbp-0d-w5m" firstAttribute="top" secondItem="2TC-Ym-gT0" secondAttribute="bottom" constant="42" id="T4E-fr-Svw"/>
+                            <constraint firstItem="2TC-Ym-gT0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TzW-kG-qBm"/>
+                            <constraint firstItem="WLp-Ap-dXD" firstAttribute="top" secondItem="Wbp-0d-w5m" secondAttribute="bottom" constant="48" id="Zym-03-KVz"/>
+                            <constraint firstItem="UfP-16-nf5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cYR-iW-2sK"/>
+                            <constraint firstItem="WLp-Ap-dXD" firstAttribute="top" secondItem="Wbp-0d-w5m" secondAttribute="bottom" constant="48" id="dzb-hG-btK"/>
+                            <constraint firstItem="2TC-Ym-gT0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="qsF-f7-lQC"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="cityTextField" destination="WLp-Ap-dXD" id="cHG-i9-fzf"/>
