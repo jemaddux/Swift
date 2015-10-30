@@ -43,7 +43,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool{
-//        cityTextField.resignFirstResponder()
         self.view.endEditing(true)
         return false
     }
