@@ -48,7 +48,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gestures" image="Gestures.png" selectedImage="Gestures.png" id="i1B-eZ-HKw"/>
+                    <tabBarItem key="tabBarItem" title="Gestures" image="Gestures.png" id="i1B-eZ-HKw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tSm-Eh-YVS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,7 +76,7 @@
         <scene sceneID="kho-V6-RyL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fc3-DK-aa7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Players" image="Players.png" selectedImage="Players.png" id="w19-Ev-UpL"/>
+                    <tabBarItem key="tabBarItem" title="Players" image="Players.png" badgeValue="players" id="w19-Ev-UpL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="c0f-BT-E67">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
