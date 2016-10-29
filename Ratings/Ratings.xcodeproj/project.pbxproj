@@ -15,6 +15,7 @@
 		321025D41DC3A4E300BC5DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321025D21DC3A4E300BC5DD3 /* LaunchScreen.storyboard */; };
 		321025DF1DC3A4E400BC5DD3 /* RatingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321025DE1DC3A4E400BC5DD3 /* RatingsTests.swift */; };
 		321025EA1DC3A4E400BC5DD3 /* RatingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321025E91DC3A4E400BC5DD3 /* RatingsUITests.swift */; };
+		32CB218C1DC43D210085D5AC /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 32CB218B1DC43D210085D5AC /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		321025E51DC3A4E400BC5DD3 /* RatingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321025E91DC3A4E400BC5DD3 /* RatingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsUITests.swift; sourceTree = "<group>"; };
 		321025EB1DC3A4E400BC5DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CB218B1DC43D210085D5AC /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				321025C81DC3A4E300BC5DD3 /* ViewController.swift */,
 				321025CA1DC3A4E300BC5DD3 /* Main.storyboard */,
 				321025D01DC3A4E300BC5DD3 /* Assets.xcassets */,
+				32CB218B1DC43D210085D5AC /* Images */,
 				321025D21DC3A4E300BC5DD3 /* LaunchScreen.storyboard */,
 				321025D51DC3A4E300BC5DD3 /* Info.plist */,
 				321025CD1DC3A4E300BC5DD3 /* Ratings.xcdatamodeld */,
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CB218C1DC43D210085D5AC /* Images in Resources */,
 				321025D41DC3A4E300BC5DD3 /* LaunchScreen.storyboard in Resources */,
 				321025D11DC3A4E300BC5DD3 /* Assets.xcassets in Resources */,
 				321025CC1DC3A4E300BC5DD3 /* Main.storyboard in Resources */,
@@ -510,6 +514,7 @@
 				321025F01DC3A4E400BC5DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321025F11DC3A4E400BC5DD3 /* Build configuration list for PBXNativeTarget "RatingsTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +523,7 @@
 				321025F31DC3A4E400BC5DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321025F41DC3A4E400BC5DD3 /* Build configuration list for PBXNativeTarget "RatingsUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +532,7 @@
 				321025F61DC3A4E400BC5DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
